@@ -1,9 +1,16 @@
-public class Calculator {
+public class EmployeeSalary {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 20;
-        int sum = a + b;
+        int basicSalary = 20000;
+        int bonus = 5000;
+        int deduction = 2000;
 
-        System.out.println("Sum = " + sum);
+        int unusedVariable = 1000;
+
+        int totalSalary = basicSalary + bonus - deduction;
+
+        System.out.println("Basic Salary = " + basicSalary);
+        System.out.println("Bonus = " + bonus);
+        System.out.println("Deduction = " + deduction);
+        System.out.println("Total Salary = " + totalSalary);
     }
 }
